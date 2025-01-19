@@ -24,13 +24,13 @@ defineProps<{
         :key="idx"
         :to="item.link"
         target="_blank"
-        class="flex items-center rounded-lg bg-gray-1/40 p-4 duration-300 dark:(bg-gray-9/30) hover:(bg-gray-1 dark:bg-gray-9)"
+        class="flex items-center rounded-lg bg-zinc-1/40 p-4 duration-300 dark:(bg-zinc-9/30) hover:(bg-zinc-1 dark:bg-zinc-9)"
       >
-        <i class="flex-none text-3xl c-gray-5" :class="item.icon" />
+        <i class="flex-none text-3xl c-zinc-5" :class="item.icon" />
         <div class="ml-4">
           <h3>{{ item.name }}</h3>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <p class="mt-.5 text-sm c-gray-5" v-html="item.desc" />
+          <p class="mt-.5 text-sm c-zinc-5" v-html="item.desc" />
         </div>
       </NuxtLink>
     </div>
