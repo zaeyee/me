@@ -3,7 +3,7 @@ const appConfig = useAppConfig()
 </script>
 
 <template>
-  <div class="mb-0 text-3xl font-900">Projects</div>
-  <p class="mt-1 c-zinc-5 italic">List of projects that I am proud of</p>
+  <h1 class="mb-0 text-center text-8 font-900">Projects</h1>
+  <p class="mt-1 text-center c-zinc-5 italic">Projects that I created or maintaining.</p>
   <ZProjects :list="appConfig.projects" />
 </template>

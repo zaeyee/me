@@ -6,9 +6,9 @@ useHeadSafe({
 
 <template>
   <ZNavbar />
-  <NuxtLayout>
+  <main class="overflow-hidden py-10 container">
     <NuxtPage />
-  </NuxtLayout>
+  </main>
 </template>
 
 <style>
